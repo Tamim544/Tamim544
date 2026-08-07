@@ -95,7 +95,7 @@
                 </text>
                 <text x="0" y="105" opacity="0">
                     <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.2;1" dur="5s" begin="2.5s" repeatCount="indefinite" fill="freeze"/>
-                    🌐 Portfolio: tamim544.github.io
+                    🌐 Portfolio: tamim544.github.io/tamim-chowdhury-portfolio
                 </text>
             </g>
 

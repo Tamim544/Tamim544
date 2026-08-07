@@ -12,13 +12,13 @@
 <br>
 
 <div align="center">
-  <a href="https://tamim544.github.io" target="_blank">
+  <a href="https://tamim544.github.io/tamim-chowdhury-portfolio/#" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Portfolio" />
   </a>
-  <a href="mailto:your-email@example.com" target="_blank">
+  <a href="mailto:tamimchowdhury806@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
   </a>
-  <a href="https://www.linkedin.com/in/tamim-chowdhury" target="_blank">
+  <a href="https://www.linkedin.com/in/tamim-chowdhury-1175b1402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
   </a>
 </div>
@@ -42,7 +42,7 @@ An advanced, AI-driven static application security testing (SAST) platform.
 - **Full-Stack:** Built the highly interactive, real-time 3D dashboard using **Next.js 15, Framer Motion, and React Three Fiber**. Wrapped the AI in a highly concurrent **FastAPI** backend.
 - **Integrations:** Engineered a VS Code extension with real-time "Quick Fix" diagnostics and a GitHub Probot for automated PR security reviews.
 
-#### 🌐 [Creative Technologist Portfolio](https://tamim544.github.io)
+#### 🌐 [Creative Technologist Portfolio](https://tamim544.github.io/tamim-chowdhury-portfolio/#)
 A sleek, ultra-modern portfolio website showcasing my engineering and design capabilities.
 - Built from the ground up using **Next.js** and **Tailwind CSS**.
 - Features advanced UI/UX concepts including glassmorphism, scroll-driven animations, and interactive elements.
