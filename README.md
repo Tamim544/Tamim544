@@ -2,9 +2,9 @@
 
 <!-- The picture tag allows the banner to automatically switch between light and dark mode based on the user's GitHub theme settings -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img alt="Tamim Chowdhury - Full-Stack AI Engineer" src="./dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tamim544/Tamim544/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tamim544/Tamim544/main/light.svg">
+  <img alt="Tamim Chowdhury - Full-Stack AI Engineer" src="https://raw.githubusercontent.com/Tamim544/Tamim544/main/dark.svg" width="100%">
 </picture>
 
 </div>
