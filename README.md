@@ -62,6 +62,24 @@ Production-ready crypto sentiment predictor and forecasting pipeline.
 - **AI/ML:** Engineered an **LSTM + Prophet** ensemble model combined with **FinBERT** for advanced sentiment analysis and financial forecasting.
 - **Explainability:** Integrated Explainable AI (**SHAP**) to provide transparent insights into model predictions, wrapped in a **Streamlit** dashboard.
 
+#### 🧠 [Medical GPT-350M · Autonomous Local LLM](https://github.com/Tamim544/LLM-Model)
+An end-to-end, locally runnable Medical Language Model &amp; Agent Framework.
+- **Model Architecture:** Custom 350M parameter GPT-style Transformer built from scratch using **Rotary Position Embeddings (RoPE)** and **SwiGLU** activation.
+- **Training Pipeline:** Pre-trained on 2GB of PubMed abstracts with memory-efficient techniques (Mixed-Precision fp16, Gradient Checkpointing) and SFT-tuned on medical dialogues.
+- **RAG &amp; Serving:** Integrated a **FAISS** vector database with ~49,000 embedded medical facts and wrapped in a OpenAI-compatible FastAPI backend with a custom web interface.
+
+#### 🌫️ [Delhi Pollution Trapping Event Prediction](https://github.com/Tamim544/BTP-Project)
+Explainable Machine Learning for early detection of atmospheric pollution trapping events in Delhi.
+- **Data Engineering:** Unified 5+ years of CPCB air quality logs with global ERA5 meteorological reanalysis and NASA FIRMS fire hotspot data.
+- **Machine Learning:** Engineered an **XGBoost &amp; HGBDT** forecasting pipeline achieving **87.4% F1-score** at 6h lead times, using meteorological deweathering to isolate atmospheric trapping events.
+- **Explainability:** Applied **SHAP interaction analysis** to verify that model predictions align with physically correct boundary layer height interactions.
+
+#### 🤖 [AgentFlow-AI](https://github.com/Tamim544/Agentic-Ai)
+An autonomous, end-to-end multi-agent report generation and research system.
+- **Agent Network:** Coordinated a state-machine network of **6 specialized agents** (Supervisor, Researcher, Analyst, Writer, Reviewer, Output) using a dynamic routing architecture.
+- **Tech Stack &amp; Streaming:** Engineered with a hardened **FastAPI** backend and **React v19** dashboard, using **Server-Sent Events (SSE)** to stream real-time node transitions.
+- **Human-in-the-Loop:** Designed active HITL gate controls allowing human intervention before critical editing and compilation phases.
+
 ---
 
 ### 🛠️ Tech Stack & Arsenal

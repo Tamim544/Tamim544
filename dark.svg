@@ -91,7 +91,7 @@
                 </text>
                 <text x="0" y="70" opacity="0">
                     <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.2;1" dur="5s" begin="2s" repeatCount="indefinite" fill="freeze"/>
-                    🎯 Focus: Advanced ML, LLMs, RAG, & Next.js
+                    🎯 Focus: Advanced ML, LLMs, RAG, &amp; Next.js
                 </text>
                 <text x="0" y="105" opacity="0">
                     <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.2;1" dur="5s" begin="2.5s" repeatCount="indefinite" fill="freeze"/>
