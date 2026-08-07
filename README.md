@@ -47,6 +47,21 @@ A sleek, ultra-modern portfolio website showcasing my engineering and design cap
 - Built from the ground up using **Next.js** and **Tailwind CSS**.
 - Features advanced UI/UX concepts including glassmorphism, scroll-driven animations, and interactive elements.
 
+#### 🧠 [NeuroFlow-AI](https://github.com/Tamim544/NeuroFlow-AI)
+Autonomous Multi-Agent AI Platform for Scientific Research & Machine Learning Discovery.
+- **Architecture:** Built an advanced multi-agent system using **LangGraph**, **FastAPI**, and **Next.js**.
+- **Capabilities:** Features autonomous agents capable of orchestrating complex scientific workflows and data pipelines.
+
+#### 🏢 [Aura RAG Enterprise](https://github.com/Tamim544/aura-rag-enterprise)
+Enterprise-grade Retrieval-Augmented Generation (RAG) system built for production.
+- **Backend:** Architected with **PostgreSQL/PGVector** for vector embeddings and semantic search, alongside **Redis** for high-speed caching.
+- **Infrastructure:** Implemented **SlowAPI** for robust rate-limiting and deployed with fully automated CI/CD pipelines.
+
+#### 📈 [CryptoSight-XAI](https://github.com/Tamim544/CryptoSight-XAI)
+Production-ready crypto sentiment predictor and forecasting pipeline.
+- **AI/ML:** Engineered an **LSTM + Prophet** ensemble model combined with **FinBERT** for advanced sentiment analysis and financial forecasting.
+- **Explainability:** Integrated Explainable AI (**SHAP**) to provide transparent insights into model predictions, wrapped in a **Streamlit** dashboard.
+
 ---
 
 ### 🛠️ Tech Stack & Arsenal
