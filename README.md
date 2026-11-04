@@ -35,6 +35,16 @@ Whether I'm architecting a real-time 3D dashboard in Next.js or training a machi
 
 ### 💻 Featured Projects
 
+#### 🌫️ [Delhi Pollution Trapping Event Prediction](https://github.com/Tamim544/BTP-Project)
+**Explainable Machine Learning for Early Detection of Atmospheric Pollution Trapping Events in Delhi**
+A research-driven machine learning project focused on identifying and forecasting atmospheric conditions associated with severe pollution trapping episodes in Delhi. The project integrates historical air-quality observations, meteorological reanalysis, satellite fire detections, environmental indicators, and GRAP-based scenario simulation.
+- **Data Engineering:** Integrated over five years of historical CPCB air-quality observations with ERA5 meteorological reanalysis, NASA FIRMS satellite fire detections, and additional environmental and urban activity indicators. Developed an hourly data integration and feature-engineering pipeline incorporating ventilation coefficients, boundary-layer dynamics, meteorological interactions, and pollution-related indicators.
+- **Machine Learning:** Developed a multi-horizon prediction pipeline using XGBoost and Histogram-based Gradient Boosting Decision Trees (HGBDT), alongside historical trapping-event identification and model evaluation workflows. Currently redesigning the prediction methodology to forecast new pollution trapping episode onsets at 12-hour and 24-hour horizons.
+- **GRAP Scenario Simulation:** Developed a simulation framework for GRAP Stages I–IV to investigate how modeled changes in traffic, crop-residue burning, construction dust, and industrial activity influence predicted pollution-trapping risk.
+- **Explainable AI:** Incorporated SHAP-based feature attribution and interaction analysis to investigate the influence of meteorological and emission-related variables on model predictions, with emphasis on physically meaningful atmospheric relationships.
+- **Scientific Validation:** Implemented chronological validation, leakage-aware event evaluation, scenario-integrity checks, and independent methodological audits to assess prediction reliability, alert behavior, and the limitations of historical forecasting.
+- **Decision-Support Dashboard:** Developed a web-based atmospheric monitoring dashboard integrating live environmental data, regional NCR visualization, multi-horizon prediction displays, and atmospheric time-series analysis. Future integration with the GRAP scenario engine is planned.
+
 #### 🛡️ [SecureAI - Enterprise Vulnerability Scanner](https://github.com/Tamim544/SecureAI)
 An advanced, AI-driven static application security testing (SAST) platform.
 - **AI/ML:** Replaced legacy regex scanners with a hybrid **GraphCodeBERT + GATv2Conv** model that analyzes Code Property Graphs (CPGs) for structural vulnerabilities.
@@ -67,12 +77,6 @@ An end-to-end, locally runnable Medical Language Model, can be trained for other
 - **Model Architecture:** Custom 350M parameter GPT-style Transformer built from scratch using **Rotary Position Embeddings (RoPE)** and **SwiGLU** activation.
 - **Training Pipeline:** Built with a custom 350M-parameter GPT-style Transformer featuring Rotary Position Embeddings (RoPE) and SwiGLU activation. It includes a memory-efficient training pipeline using 2GB of PubMed abstracts, mixed-precision FP16, gradient checkpointing, and supervised fine-tuning on medical conversations.
 - **RAG &amp; Serving:** Integrated a **FAISS** vector database with ~49,000 embedded medical facts and wrapped in a OpenAI-compatible FastAPI backend with a custom web interface.
-
-#### 🌫️ [Delhi Pollution Trapping Event Prediction](https://github.com/Tamim544/BTP-Project)
-Explainable Machine Learning for early detection of atmospheric pollution trapping events in Delhi.
-- **Data Engineering:** Unified 5+ years of CPCB air quality logs with global ERA5 meteorological reanalysis and NASA FIRMS fire hotspot data.
-- **Machine Learning:** Engineered an **XGBoost &amp; HGBDT** forecasting pipeline achieving **87.4% F1-score** at 6h lead times, using meteorological deweathering to isolate atmospheric trapping events.
-- **Explainability:** Applied **SHAP interaction analysis** to verify that model predictions align with physically correct boundary layer height interactions.
 
 #### 🤖 [AgentFlow-AI](https://github.com/Tamim544/Agentic-Ai)
 An autonomous, end-to-end multi-agent report generation and research system.
