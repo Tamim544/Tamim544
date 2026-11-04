@@ -62,10 +62,10 @@ Production-ready crypto sentiment predictor and forecasting pipeline.
 - **AI/ML:** Engineered an **LSTM + Prophet** ensemble model combined with **FinBERT** for advanced sentiment analysis and financial forecasting.
 - **Explainability:** Integrated Explainable AI (**SHAP**) to provide transparent insights into model predictions, wrapped in a **Streamlit** dashboard.
 
-#### 🧠 [Medical GPT-350M · Autonomous Local LLM](https://github.com/Tamim544/LLM-Model)
-An end-to-end, locally runnable Medical Language Model &amp; Agent Framework.
+#### 🧠 [Personal GPT-350M · Autonomous Local LLM](https://github.com/Tamim544/LLM-Model)
+An end-to-end, locally runnable Medical Language Model, can be trained for other datasets also &amp; Agent Framework.
 - **Model Architecture:** Custom 350M parameter GPT-style Transformer built from scratch using **Rotary Position Embeddings (RoPE)** and **SwiGLU** activation.
-- **Training Pipeline:** Pre-trained on 2GB of PubMed abstracts with memory-efficient techniques (Mixed-Precision fp16, Gradient Checkpointing) and SFT-tuned on medical dialogues.
+- **Training Pipeline:** Built with a custom 350M-parameter GPT-style Transformer featuring Rotary Position Embeddings (RoPE) and SwiGLU activation. It includes a memory-efficient training pipeline using 2GB of PubMed abstracts, mixed-precision FP16, gradient checkpointing, and supervised fine-tuning on medical conversations.
 - **RAG &amp; Serving:** Integrated a **FAISS** vector database with ~49,000 embedded medical facts and wrapped in a OpenAI-compatible FastAPI backend with a custom web interface.
 
 #### 🌫️ [Delhi Pollution Trapping Event Prediction](https://github.com/Tamim544/BTP-Project)
